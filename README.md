@@ -1,4 +1,4 @@
-# CE7490 Project RAID6
+# RAID6
 
 CE7490 2019 Fall - Advanced Topics in Distributed System - Project 2: RAID-6 based distributed storage system
 
@@ -21,14 +21,21 @@ Follow the [official instrutions](https://www.anaconda.com/distribution/) of Ana
 
 ```
 git clone https://github.com/GuluDeemo/CE7490-RAID6.git
-cd CE7490-RAID6
-conda env create -f environment.yml
+cd RAID6
+conda create -n myenv python=3.6
 ```
 
 To use Python from the environment you just created, activate the environment with
 
 ```
-conda activate RAID6
+conda activate myenv
+```
+
+### Requirements
+To install required packages and dependencies, run:
+
+```
+pip install -r requirements.txt
 ```
 
 ## Running Experiments
